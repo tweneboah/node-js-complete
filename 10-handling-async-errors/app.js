@@ -1,5 +1,3 @@
-//request package
-
 const request = require('request');
 
 //How to show error messages
