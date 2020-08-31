@@ -1,0 +1,14 @@
+{
+  "name": "4-importing-npm-packages",
+  "version": "1.0.0",
+  "description": "First node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emmanuel Tweneboah",
+  "license": "MIT",
+  "dependencies": {
+    "validator": "^13.1.1"
+  }
+}
