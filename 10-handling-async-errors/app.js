@@ -25,7 +25,7 @@ request({ url: url, json: true }, (err, response) => {
 //Making request to mapbox geocode
 
 const url2 =
-  'https://api.mapbox.com/geocoding/v5/mapbox.places/json?access_token=pk.eyJ1IjoidHdlbmVib2FoIiwiYSI6ImNqc3JqcXp1aTFqZ3I0NHN6eWx1emJxYTEifQ.WsB6CDI8nv3ge21eTNYv-A&limit=1';
+  'https://api.mapbox.com/geocoding/v5/mapbox.places/.Atonsu Ghana Ashanti region.json?access_token=pk.eyJ1IjoidHdlbmVib2FoIiwiYSI6ImNqc3JqcXp1aTFqZ3I0NHN6eWx1emJxYTEifQ.WsB6CDI8nv3ge21eTNYv-A&limit=1';
 
 request({ url: url2, json: true }, (err, res) => {
   if (err) {
