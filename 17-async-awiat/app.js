@@ -15,8 +15,12 @@ const getUser = async id => {
 //Since await requires us to wrap our function in async we will create a function and wrap it like this
 
 const getUserDisplay = async () => {
-  const res = await getUser(2000);
-  console.log(res);
+  try {
+    const res = await getUser(2000);
+    console.log(res);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 getUserDisplay();
