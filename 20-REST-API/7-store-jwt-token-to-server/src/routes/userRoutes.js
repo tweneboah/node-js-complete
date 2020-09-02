@@ -9,7 +9,7 @@ userRouter.post('/users', async (req, res) => {
     const tokens = await user.generateAuthTokens(user.id);
     user.tokens = tokens;
     const userCreated = await user.save();
-    res.send(userCreated);
+    res.send({ userCreated, tokens });
   } catch (error) {
     res.status(400).send(error);
   }
